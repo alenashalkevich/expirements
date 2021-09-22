@@ -19,5 +19,6 @@ public class VeryStrictDiet {
     public static void main(String[] args) {
         VeryStrictDiet v = new VeryStrictDiet();
         v.takeLunch(DayOfWeek.SUNDAY);
+        v.takeLunch(DayOfWeek.MONDAY);
     }
 }
